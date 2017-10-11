@@ -1,0 +1,163 @@
+img{
+  display: block;
+  width: 100%;
+}
+*{
+  transition: color 200ms;
+}
+a:hover{
+    text-decoration: none;
+}
+body{
+  line-height: 1.5;
+}
+.container-small{
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.container-small h1{
+  display: inline-block;
+}
+.label{
+   background: #999;
+}
+.navbar-brand{
+  background-image: url(../img/logo.png);
+  width: 50px;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.list-group-item{
+  border: 0;
+  margin-bottom: 5px;
+}
+.list-group-item:hover{
+  background-color: rgba(0,0,0,0.05);
+}
+.list-group-item.active{
+  background-color:#ea0c3c;
+}
+.list-group-item.active:hover{
+  background: #d4103b;
+}
+img,
+.list-group-item,
+.sider-bar-card,
+.sider-bar-well{
+  border-radius: 3px;
+}
+
+.news-list img{
+  width: 100%;
+}
+.news-list{
+  margin-bottom: 15px;
+}
+.news-list-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.news-list-item:first-child{
+  padding-top: 0;
+}
+.news-title{
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  color:#000;
+}
+.news-title:hover{
+
+  color: #337ab7;
+}
+.avatar{
+  display: inline-block;
+}
+.avatar img {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.search-bar{
+  margin-bottom: 15px;
+}
+.sider-bar-card{
+  background: #eee;
+  padding: 14px 0;
+  margin-top: 15px;
+}
+.sider-bar-card .info-lg{
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-title{
+  font-size: 18px;
+  font-weight: bold;
+  padding:0 15px;
+  margin-bottom: 5px;
+}
+.card-body{
+  padding: 5px 15px;
+  margin-bottom: 8px;
+}
+.news-status,
+.card-status,
+.atc-status{
+  color: #999;
+  font-size: 13px;
+}
+.card-body:hover,
+.well-body:hover{
+  background: rgba(0, 0, 0, 0.05);
+}
+.footer {
+  margin-top: 20px;
+  padding: 50px 0;
+  text-align: center;
+  color: #999;
+}
+.atc-title{
+  font-size: 33px;
+  font-weight:500;
+  line-height: 1.5;
+}
+.sider-bar-well{
+  padding: 10px 10px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.well-body{
+  padding: 7px;
+}
+
+.log-reg-tips{
+  margin-left: 5px;
+  color: #999;
+}
+.log-reg-tips,
+.log-reg-btn{
+  font-size: 22px;
+}
+
+.log-reg-body>*{
+  margin: 7px 0;
+}
+#taggle-checkbox:checked ~ div{
+  display: block!important;
+}
+.fixed{
+  position: relative;
+}
+#taggle-label{
+  position: absolute;
+  right:15px;
+  top:15px;
+  color: #666;
+}
+#taggle-label:hover{
+  color: #333;
+}
